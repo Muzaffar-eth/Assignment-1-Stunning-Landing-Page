@@ -1,0 +1,243 @@
+body{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.logo-img{
+    width: 105px;
+    height: 40px;
+    padding-left: 45px;
+    padding-top: 10px;
+    float: left;
+    position: relative;
+    
+}
+
+nav ul{
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+    margin-left: 350px;
+}
+
+nav ul li a{
+    position: relative;
+    display: block;
+    line-height: 2px;
+    padding: 30px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: black;
+    transition: 0.5s;
+}
+
+nav ul li a::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    top: 100%;
+    left: 0;
+    background: #8071D0;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: right;
+}
+
+nav ul li a:hover {
+    color: #95a5a6;
+}
+nav ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+.topnav-right button {
+    float: right;
+    text-decoration: none;
+    margin-left: 400px;
+}
+
+.topnav-right button {
+    width: 125px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: #FFD8DB ;
+    color:  #8457cc;
+    text-decoration: none;
+}
+
+.home-img{
+    width: 45%;
+    flex-basis: 40%;
+}
+
+.home-img img{
+    height: 500px;
+    width: 500px;
+    
+    
+}
+
+.home .home-content #text-1{
+    font-size: 80px;
+    font-weight: 600;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding-left: 75px;
+    margin-top: 100px;
+}
+
+
+.home .home-content #text-2{
+    font-size: 80px;
+    font-weight: 600;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding-left: 75px;
+}
+
+
+.home .home-content #text-3{
+    font-size: 17px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding-left: 75px;
+    color: rgb(0, 0, 0);
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#account button{
+    width: 125px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: #5243C0 ;
+    color:  #ffffff;
+    text-decoration: none;
+    margin-left: 35px;
+    
+}
+
+#arrow-up{
+    margin-left: 35px;
+    
+}
+
+#arrow-down{
+    margin-left: 35px;
+    
+}
+
+.home-content ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.list ul{
+    position: relative;
+    box-sizing: border-box;
+}
+
+.list ul li{
+    list-style: none;
+    display: flex;
+    padding: 10px 20px;
+    margin: 5px 0;
+    transition: .5s;
+    background:#dcdbdb55 ;
+    border-radius: 10px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+
+
+}
+
+.listul ul li  span:nth-child(1){
+    width: 0px;
+}
+
+.list ul li  span:nth-child(2){
+    width: 60px;
+}
+
+.list ul li  span:nth-child(3){
+    width: 150px;
+}
+
+.list ul li  span:nth-child(4){
+    width: 80px;
+}
+
+.list ul li  span:nth-child(5){
+    width: 80px;
+}
+
+.list ul li:hover{
+    transform: scale(1.06);
+    background: #ffffff;
+}
+
+.list #shape1{
+    height: 20px;
+    width: 45px;
+    background-color:  #FED7DA;
+    border-radius: 40%;
+}
+
+.list #shape2{
+    height: 20px;
+    width: 45px;
+    background-color:  #FD6534;
+    border-radius: 40%;
+}
+
+.list #shape3{
+    height: 20px;
+    width: 45px;
+    background-color:   #9ED095;
+    border-radius: 40%;
+}
+
+.list #shape4{
+    height: 20px;
+    width: 45px;
+    background-color:  #FFE4A0;
+    border-radius: 40%;
+}
+
+.list #date{
+    font-weight: 100;
+    color: #95a5a6;
+}
+
+
+.list ul li:hover #front {
+    display: none;
+
+}
+
+.list ul li:hover #behind {
+    display: inline-block;
+
+}
+
+.list ul li #behind {
+    display: none;
+
+}
+
+
